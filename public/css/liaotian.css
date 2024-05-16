@@ -1,0 +1,424 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	color: #CCC;
+}
+
+input {
+	outline: none;
+}
+
+#menuTop {
+	width: 100%;
+	height: 3rem;
+	position: fixed;
+	background-color: #232323;
+	box-shadow: 0 .01rem .1rem black;
+}
+
+#userIcoTop {
+	position: absolute;
+	height: 2rem;
+	margin-top: .5rem;
+}
+
+#logoTop {
+	position: absolute;
+	left: 1%;
+	top: 0;
+	width: 14.4rem;
+	height: 3rem;
+	color: #A9A9A9;
+}
+
+#logoTop span {
+	position: absolute;
+	left: 2rem;
+
+}
+
+#gupName {
+	top: .1rem;
+	font-size: 1.4rem;
+}
+
+#RS {
+	font-size: .6rem;
+	font-weight: 300;
+	top: 1.9rem;
+}
+
+#nowName {
+	text-align: center;
+}
+
+#userData {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 15;
+	background-color: #FFF;
+	user-select: none;
+	/* top: -100%; */
+	transition: top .4s;
+}
+
+#udM {
+	position: absolute;
+	width: 16rem;
+	left: 50%;
+	top: 30%;
+	color: #000;
+	transform: translate(-50%, -30%);
+}
+
+#userDIY {
+	width: 100%;
+	border: 0;
+	text-align: center;
+	font-size: 1.6rem;
+	background-color: rgba(0, 0, 0, 0);
+	color: #000;
+	border-bottom: .2rem solid #000;
+}
+
+#udM span {
+	text-align: right;
+	display: inline-block;
+	width: 100%;
+}
+
+#userIcoTop {
+	width: 2rem;
+	border-radius: 10%;
+	right: 1%;
+	box-shadow: 0 0 .3rem #232323 inset;
+	border: .06rem solid darkgrey;
+	background-image: url(../img/b1.jpg);
+	margin-top: .44rem;
+}
+
+#udOK {
+	font-size: 1.6rem;
+	font-weight: 700;
+	width: 4rem;
+	background-color: #fff;
+	border-radius: .2rem;
+}
+
+#userIcoTop:hover {
+	cursor: pointer;
+	box-shadow: 0 0 .24rem #232323 inset;
+}
+
+#topImg {
+	width: 100%;
+	height: 2rem;
+	transition: height .8s;
+	background-color: #0E3871;
+	background-image: url(../img/b1.jpg);
+	background-size: cover;
+	overflow: hidden;
+	position: fixed;
+	top: 3rem;
+}
+
+
+
+#nrRi {
+	position: fixed;
+	top: 5rem;
+	height: calc(100% - 5rem);
+	width: 18rem;
+	background-color: #232323;
+	color: #F0F8FF;
+}
+
+#nrRi1,
+#nrRi2,
+#nrRi3 {
+	width: 100%;
+	background-color: #262626;
+	margin-top: 0.625rem;
+	border-top: .2rem solid #363636;
+	padding-bottom: 2rem;
+}
+
+#nrRi h3 {
+	text-align: center;
+}
+
+#mainNR {
+	position: fixed;
+	margin-left: 1rem;
+	width: calc(100% - 2rem);
+	display: inline-block;
+}
+
+#messages {
+	list-style: none;
+	position: fixed;
+	width: calc(100% - 2rem);
+	height: calc(100% - 14rem);
+	bottom: 13rem;
+	overflow-y: scroll;
+	-ms-overflow-style: none;
+	overflow: -moz-scrollbars-none;
+	border-bottom: 0;
+	box-shadow: 0 0 .3rem #232323 inset;
+    white-space:normal;
+	word-break: break-all;
+}
+
+#messages::-webkit-scrollbar {
+	width: 0 !important
+}
+
+#messages li {
+	margin-top: .2rem;
+	margin-bottom: .4rem;
+}
+
+#messages h4 {
+	display: inline-block;
+	margin: .2rem;
+	text-shadow: .02rem .02rem 0.02rem #000000;
+}
+
+#messages h5 {
+	display: inline-block;
+	font-size: .7rem;
+	text-decoration: overline;
+}
+
+.qiTa span,
+.mySelf span {
+	font-size: 1.2rem;
+	background-color: aliceblue;
+	padding: .2rem;
+	margin: .4rem;
+	margin-top: .2rem;
+	border-radius: .2rem;
+	max-width: 85%;
+	display: inline-block;
+}
+
+.qiTa img,
+.mySelf img {
+	width: 26%;
+	border-radius: .2rem;
+	margin: .4rem;
+	margin-top: .2rem;
+	cursor: zoom-in;
+}
+
+.qiTa span,
+.qiTa img {
+	box-shadow: .1rem .1rem .2rem .1rem #232323;
+}
+
+.mySelf span,
+.mySelf img {
+	box-shadow: -0.1rem .1rem .2rem .1rem #232323;
+}
+
+#m {
+	width: 100%;
+	height: 8rem;
+	font-size: 1.1rem;
+	resize: none;
+	outline: none;
+	box-shadow: 0 0 .3rem #232323 inset;
+	border: 0;
+	text-indent: 2em;
+	margin-top: .6rem;
+}
+
+#con2 {
+	margin-top: -1rem;
+	user-select: none;
+}
+
+#mBtn {
+	right: 0;
+	position: absolute;
+	width: 5rem;
+	font-size: 1.2rem;
+	margin-top: -2.2rem;
+	cursor: pointer;
+	height: 2rem;
+	background-color: #232323;
+	border-radius: .3rem;
+	color: #F0F8FF;
+	border: .1rem solid #363636;
+	display: inline-block;
+}
+
+#mBtn span {
+	position: absolute;
+	display: inline-block;
+	left: 50%;
+	top: 50%;
+	transform: translate(-90%, -50%);
+}
+
+#mBtn svg {
+	position: absolute;
+	top: 0;
+	right: .2rem;
+	width: 2rem;
+}
+
+.mySelf {
+	text-align: right;
+}
+
+.mySelf span {
+	background-color: #000;
+	color: #fff;
+	text-align: left;
+}
+
+
+#inputImgBtn {
+	width: 2.4rem;
+	height: 1.8rem;
+	transition: width .2s;
+	background-color: #232323;
+	position: relative;
+	border-radius: .3rem;
+	padding: .2rem;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+#inputImgBtn:hover {
+	width: 7rem;
+}
+
+#inputImg {
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+}
+
+#inputImgBtn div {
+	width: 100%;
+	height: 100%;
+	background-color: #FFF;
+	border-radius: .2rem;
+}
+
+#inputImgBtn p {
+	display: inline-block;
+	position: absolute;
+	font-size: 1rem;
+	top: .4rem;
+	left: 2.8rem;
+	font-weight: 700;
+}
+
+#imgTs {
+	font-size: .5rem;
+	color: red;
+	visibility: hidden;
+	user-select: none;
+}
+
+.iconImg {
+	height: 100%;
+	width: 2rem;
+	margin-left: .2rem;
+}
+
+.msgTis {
+	text-align: center;
+	user-select: none;
+}
+
+.msgTis span {
+	background-color: #A9A9A9;
+	display: inline-block;
+	padding: .3rem;
+	border-radius: .5rem;
+	font-size: .6rem;
+	font-weight: 400;
+	color: #232323;
+}
+
+#sendCon {
+	position: fixed;
+	width: calc(100% - 22rem);
+	height: 13rem;
+	z-index: 11;
+	bottom: 0;
+}
+
+@media screen and (max-width: 70rem) {
+	#nrRi {
+		visibility: hidden;
+	}
+
+	#mainNR {
+		margin-left: .5rem;
+		width: calc(100% - 1rem);
+	}
+
+	#messages {
+		width: calc(100% - 1rem);
+	}
+
+	#sendCon {
+		width: calc(100% - 1rem);
+	}
+
+}
+
+@media screen and (max-width: 31.25rem) {
+	#messages {
+		width: 100%;
+		height: calc(100% - 18rem);
+		left: 0;
+	}
+}
+
+
+#yulanKuang {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 13;
+
+}
+
+#yulanImg {
+	position: fixed;
+	height: 80%;
+	width: auto;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	position: fixed;
+	z-index: 14;
+}
+
+#ylImg {
+	height: 100%;
+	border: .1rem solid #FFF;
+	border-radius: .2rem;
+	cursor: crosshair;
+}
+
+#YLK {
+	visibility: hidden;
+}
+
